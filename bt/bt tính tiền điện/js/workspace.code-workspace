@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../Baitap-Grab"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../bt87"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "bt87"
+	}
+}

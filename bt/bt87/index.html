@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quản lý tuyển sinh</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+   <span class="contact100-form-title">QUẢN LÝ TUYỂN SINH</span>
+   <h2>Vui lòng chọn khu vực ưu tiên:</h2>
+   <ul>
+    <li class="type">
+      <input type="radio" name="selector" id="khuA" />
+      <label for="khuA">khu vục A</label>
+
+      <div class="check"></div>
+    </li>
+
+    <li class="type">
+      <input type="radio" name="selector" id="khuB" />
+      <label for="khuB">khu vực B</label>
+      <div class="check"></div>
+    </li>
+
+    <li class="type">
+      <input type="radio" name="selector" id="khuC" />
+      <label for="khuC">khu vực C</label>
+      <div class="check"></div>
+    </li>
+    <li class="type">
+        <input type="radio" name="selector" id="khuX" />
+        <label for="khuX">khu vực không ưu tiên</label>
+        <div class="check"></div>
+      </li>
+  </ul>
+  <h2>Vui lòng chọn đối tượng:</h2>
+   <ul>
+    <li class="type">
+      <input type="radio" name="selector" id="khuA" />
+      <label for="DT1">đối tương 1</label>
+
+      <div class="check"></div>
+    </li>
+
+    <li class="type">
+      <input type="radio" name="selector" id="khuB" />
+      <label for="DT2">đối tương 2</label>
+      <div class="check"></div>
+    </li>
+
+    <li class="type">
+      <input type="radio" name="selector" id="khuC" />
+      <label for="DT3">đối tương 3</label>
+      <div class="check"></div>
+    </li>
+  </ul>
+  <form class="contact100-form">
+    <div class="wrap-input100 validate-input" data-validate="Name is required">
+      <h2> Điểm Toán</h2>
+      <input class="input100" type="text" name="name" id="diemToan" placeholder="số điểm"/>
+      <span class="focus-input100"></span>
+    </div>
+    <div
+      class="wrap-input100 validate-input" data-validate="Name is required">
+      <h2>Điểm Văn</h2>
+      <input class="input100" type="text" name="name" id="điemVan" placeholder="số điểm"/>
+      <span class="focus-input100"></span>
+    </div>
+    <div
+    class="wrap-input100 validate-input" data-validate="Name is required">
+    <h2>Điểm Anh</h2>
+    <input class="input100" type="text" name="name" id="điemAnh" placeholder="số điểm"/>
+    <span class="focus-input100"></span>
+  </div>
+
+    <div class="wrap-contact100-form-btn">
+      <div class="contact100-form-bgbtn"></div>
+      <button id="tinhDiem" type="button" class="contact100-form-btn">TÍNH ĐIỂM</button>
+    </div>
+    <div id="divTinhDiem" class="dongia">
+        <h2>
+          tổng điểm 
+          <span id="tongDiem" class="xuatTien"></span>
+          điểm
+        </h2>
+      </div>
+  </form>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
