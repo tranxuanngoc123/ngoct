@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../JS-Function"
+		},
+		{
+			"path": "../JS-Function (tt)"
+		},
+		{
+			"path": "../JS-Loop"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "BT MAI"
+	}
+}
