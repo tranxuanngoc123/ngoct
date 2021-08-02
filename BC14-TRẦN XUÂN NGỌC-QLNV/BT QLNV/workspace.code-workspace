@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../tttt"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "QuanLyNhanVien"
+	}
+}
